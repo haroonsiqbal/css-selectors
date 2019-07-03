@@ -1,0 +1,21 @@
+body {
+    background-color: green;
+}
+
+#title {
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+
+aside + section {
+    margin: 20px 0 10px 0;
+  }
+  
+  
+  /*
+    This will select all sibling sections regardless if they are direct
+  */
+  section ~ section {
+    margin: 20px 0 10px 0;
+    background-color: red;
+  }
